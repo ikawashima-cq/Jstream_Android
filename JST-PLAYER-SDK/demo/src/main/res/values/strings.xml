@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">JST-PLAYER-SDK</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_menu_200">Menu</string>
+    <string name="title_activity_player_210">Player</string>
+    <string name="title_activity_ad_220">AdPlayer</string>
+    <string name="title_activity_subtitle_230">Caption</string>
+    <string name="title_activity_multiplexing_240">SubAudio</string>
+    <string name="title_activity_other_250">OtherTestMode</string>
+
+    <string name="title_activity_player_live_211">LIVE</string>
+    <string name="title_activity_player_dvr_212">DVR</string>
+    <string name="title_activity_player_vod_213">VOD</string>
+
+    <string name="title_activity_ad_ssai_221">SSAI</string>
+    <string name="title_activity_ad_csai_223">CSAI</string>
+
+    <string name="title_activity_subtitle_webvtt_231">WebVTT</string>
+    <string name="title_activity_subtitle_aribttml_232">ARIB-TTML</string>
+
+    <string name="title_activity_other_network_251">Network</string>
+    <string name="title_activity_other_abr_252">ABR</string>
+    <string name="title_activity_other_failover_253">Failover</string>
+
+    <string name="preferences_server_id">ServerID</string>
+    <string name="preferences_server_status">ServerStatus</string>
+    <string name="preferences_url_dvr_212">Preferences_url_dvr_212</string>
+    <string name="preferences_url_ssai_221_session">preferences_url_ssai_221_session</string>
+    <string name="preferences_url_ssai_221_master">preferences_url_ssai_221_master</string>
+
+    <string name="url_live_211">http://5b180bc34c6e0.streamlock.net/player_sdk_test/Stream1/playlist.m3u8?DVR</string>
+    <string name="url_dvr_212">https://s3-ap-northeast-1.amazonaws.com/test.mediaconvert.out/tears_of_steel_video/master.m3u8</string>
+    <string name="url_vod_213">https://eqd114dmqf.eq.webcdn.stream.ne.jp/www50/eqd114dmqf/jmc_pub/jmc_pd/00005/3de025097f204317ae9c2b27d82582b6.m3u8</string>
+
+    <string name="url_ssai_221">https://d02839bb672642f48cb6f47c412df4f6.mediatailor.ap-northeast-1.amazonaws.com/v1/session/db31c50d2adf913f91718495adb476b09bb1ce52/ogata_caption_audio_test/master.m3u8</string>
+    <string name="url_ssai_221_testbeacon">https://e9efbdc0b7387d08b8183210c656d7a4.cdnext.stream.ne.jp/beacon/play.html</string>
+    <string name="url_webvtt_231">http://nakano-global-2.jst-lab.com/caption/servlet/master/1054057/master.m3u8</string>
+    <string name="url_network_251">https://5b180bc34c6e0.streamlock.net/player_sdk_test/Stream1/playlist.m3u8</string>
+    <string name="url_ima_223">https://eqd114dmqf.eq.webcdn.stream.ne.jp/www50/eqd114dmqf/jmc_pub/jmc_pd/00005/3de025097f204317ae9c2b27d82582b6.m3u8</string>
+    <string name="url_ima_223_ads">https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&amp;iu=/124319096/external/single_ad_samples&amp;ciu_szs=300x250&amp;impl=s&amp;gdfp_req=1&amp;env=vp&amp;output=vast&amp;unviewed_position_start=1&amp;cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&amp;correlator=</string>
+    <string name="url_multiplexing_240">https://s3-ap-northeast-1.amazonaws.com/test.mediaconvert.out/tears_of_steel_video/master.m3u8</string>
+
+    <string name="url_server_replace_string">%serverid%</string>
+    <string name="url_server_start">http://nakano-global-2.jst-lab.com/caption/servlet/caption?channel_id=%serverid%&amp;originm3u8=https%3A%2F%2Fscp-test.webcdn.stream.ne.jp%2Fwww11%2Fscp-test%2Fssai_alternative_audio05%2Fmaster_plain.m3u8&amp;duration=733.5&amp;self_delivery=true&amp;webvtt_jpn=https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Ftest.mediaconvert.out%2FTOS-JP.vtt&amp;webvtt_eng=https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Ftest.mediaconvert.out%2FTOS-en.vtt&amp;webvtt_chi=https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Ftest.mediaconvert.out%2FTOS-CH-traditional.vtt&amp;audio_ja=https%3A%2F%2Fscp-test.webcdn.stream.ne.jp%2Fwww11%2Fscp-test%2Fssai_alternative_audio05%2Faudio_jp%2Ftears_of_steel_1080p_high.m3u8&amp;audio_en=https%3A%2F%2Fscp-test.webcdn.stream.ne.jp%2Fwww11%2Fscp-test%2Fssai_alternative_audio05%2Faudio_en%2Ftears_of_steel_1080p_high.m3u8</string>
+    <string name="url_server_stop">http://nakano-global-2.jst-lab.com/caption/servlet/stop?channel_id=%serverid%</string>
+    <string name="url_server_dvr_start">http://nakano-global-2.jst-lab.com/caption/servlet/dvr?channel_id=%serverid%&amp;action=start</string>
+    <string name="url_server_dvr_stop">http://nakano-global-2.jst-lab.com/caption/servlet/dvr/dvr?channel_id=%serverid%&amp;action=stop</string>
+
+    <!--<string name="url_debug_log">https://test01.co3.co.jp/CollectLog/beacontest.html</string>-->
+    <string name="url_debug_log"></string>
+    <!--
+    <string name="url_server_replace_string">%tamanegi%</string>
+    <string name="url_server_start">http://nakano-global-2.jst-lab.com/caption/servlet/caption?channel_id=1054057&amp;webvtt_jpn=https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Ftest.mediaconvert.out%2FTOS-JP.vtt&amp;masterm3u8=https%3A%2F%2Fz7xg7g6xiyeql2.data.mediastore.ap-northeast-1.amazonaws.com%2Fogata_caption_test%2Fmaster.m3u8&amp;webvtt_eng=https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Ftest.mediaconvert.out%2FTOS-en.vtt&amp;webvtt_chi=https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Ftest.mediaconvert.out%2FTOS-CH-traditional.vtt&amp;duration=734.0</string>
+    <string name="url_server_stop">http://nakano-global-2.jst-lab.com/caption/servlet/stop?channel_id=1054057</string>
+    <string name="url_server_dvr_start">http://nakano-global-2.jst-lab.com/caption/servlet/dvr/dvr?channel_id=1054057&amp;action=start</string>
+    <string name="url_server_dvr_stop">http://nakano-global-2.jst-lab.com/caption/servlet/dvr/dvr?channel_id=1054057&amp;action=stop</string>
+    -->
+
+
+
+</resources>

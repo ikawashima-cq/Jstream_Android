@@ -1,0 +1,3 @@
+include ':demo', ':csrplibrary', ':mux-r2.8.0', ':jstplayersdk'
+rootProject.name='JST-PLAYER-SDK'
+include ':jstrplibrary'

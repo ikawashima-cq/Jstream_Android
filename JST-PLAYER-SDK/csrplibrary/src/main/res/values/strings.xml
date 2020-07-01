@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CSRPLibrary</string>
+    <string name="aes_key_phrase">streamjstidx2019</string>
+    <string name="aes_key_phrase_check">2019streamdeletekey</string>
+</resources>
